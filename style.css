@@ -1,0 +1,125 @@
+@font-face {
+    font-family: gilroy;
+    src: url(images/fonts/Gilroy-Light.otf);
+  }
+  @font-face {
+    font-family: gilbold;
+    src: url(images/fonts/Gilroy-ExtraBold.otf);
+  }
+  
+body{
+  margin: 0;
+  padding: 0;
+  background-color:  #f9f9f9;
+}
+*{
+  font-family: gilroy;
+
+}
+.brg{
+    display: none;
+}
+.navbar{
+  width: 100%;
+  height: 174px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.rightside li{
+ display: inline;
+ cursor: pointer;
+ padding-left: 50px;
+}
+.nav-btn{
+  margin-left: 50px;
+  background-color: #75BF7A;
+  border: none;
+  border-radius: 5.95px; 
+  color: white;
+  padding: 5px 20px 5px 20px ;
+} 
+
+/* section one */
+.section-one{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #75BF7A; */
+  
+}
+.section-one-content{
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
+.section-one-content h3 {
+  width: 100%;
+  font-family: gilbold;
+  font-size: 2.4em;
+  font-weight: bold;
+  filter: drop-shadow(2px 2px 2px gray);
+}
+.section-one-content p {
+  width: 100%;
+  color: #afaeb2ff;
+}
+.section-one-btns button{
+  background-color: black;
+  color: white;
+  font-size: 1.3em;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+.section-one-btns {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  margin: 0px;
+  justify-content: flex-start;
+}
+.section-one-img img{
+    object-fit: cover;
+    height: 374px;
+    filter: drop-shadow(2px 2px 2px gray);
+}
+.searchbar{
+  display: flex;
+  width: 100%;
+  height: 166px;
+  background-color: #75BF7A;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.s-left p{
+  font-size: 24.6px;
+  font-weight: 600;
+  color: white;
+}
+.s-center input{
+  width: 499px;
+  height: 67px;
+  border-radius: 4.39px;
+  border: none ;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+.s-center button{
+  width: 260px;
+  height: 67px;
+  border-radius: 4.39px;
+  font-weight: 800;
+  font-size: 22px;
+  background-color: #000000;
+  color: white;
+}

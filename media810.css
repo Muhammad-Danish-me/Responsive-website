@@ -1,0 +1,44 @@
+@media only screen and (max-width: 810px) {
+.rightside li{
+      display: none;
+   }
+.rightside button{
+      display: none;
+   }
+
+.brg{
+      display: block ;
+      margin: 0px;
+      width: 100%;
+   }
+.brg img {
+      width: 40px;
+    }
+
+    .section-one{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .section-one-content  {
+     text-align: center;
+      width: 100%;
+    }
+    .section-one-btns {
+      justify-content: center;
+    }
+    .searchbar{
+      height: 249px;
+      display: block;
+      text-align: center;
+    }
+    .s-center button{
+      margin-top: 20px;
+    }
+    .s-center input{
+      width: 60%;
+    }
+}
+
