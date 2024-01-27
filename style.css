@@ -181,8 +181,9 @@ body {
   position: relative;
   top: 125px;
 }
+
 .sec-two-between .center .mobile{
-  width: 300px;
+  width: 70%;
 }
 .sec-two-between .center .mobile img{
   width: 100%;
