@@ -52,5 +52,8 @@
     .sec-two-between .center .circle img{
       width: 100%;
     }
+    .section-three{
+      display: none;
+    }
 }
 

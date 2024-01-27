@@ -257,3 +257,31 @@ body {
 .section-three .one .one-right img {
  margin-right: 30px;
 }
+/* section three two */
+.section-three .two {
+  margin-top: 70px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #FFFFFF;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  align-items: center;
+  padding: 10px;
+  float: inline-end;
+}
+.section-three .two .two-right  span {
+  color: #75bf7a;
+  font: gilory;
+  font-size: 3em;
+  font-weight: bold;
+}
+.section-three .two .two-right h4{
+  font-size: 2em;
+  font-weight: bold;
+}
+.section-three .two .two-right p{
+  font-size: 1.5em;
+  font-family: gilory;
+  color: #9E9DA2;
+}
