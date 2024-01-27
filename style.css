@@ -1,25 +1,24 @@
 @font-face {
-    font-family: gilroy;
-    src: url(images/fonts/Gilroy-Light.otf);
-  }
-  @font-face {
-    font-family: gilbold;
-    src: url(images/fonts/Gilroy-ExtraBold.otf);
-  }
-  
-body{
+  font-family: gilroy;
+  src: url(images/fonts/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: gilbold;
+  src: url(images/fonts/Gilroy-ExtraBold.otf);
+}
+
+body {
   margin: 0;
   padding: 0;
-  background-color:  #f9f9f9;
+  background-color: #f9f9f9;
 }
-*{
+* {
   font-family: gilroy;
-
 }
-.brg{
-    display: none;
+.brg {
+  display: none;
 }
-.navbar{
+.navbar {
   width: 100%;
   height: 174px;
   display: flex;
@@ -27,29 +26,28 @@ body{
   align-items: center;
   font-size: 18px;
 }
-.rightside li{
- display: inline;
- cursor: pointer;
- padding-left: 50px;
+.rightside li {
+  display: inline;
+  cursor: pointer;
+  padding-left: 50px;
 }
-.nav-btn{
+.nav-btn {
   margin-left: 50px;
-  background-color: #75BF7A;
+  background-color: #75bf7a;
   border: none;
-  border-radius: 5.95px; 
+  border-radius: 5.95px;
   color: white;
-  padding: 5px 20px 5px 20px ;
-} 
+  padding: 5px 20px 5px 20px;
+}
 
 /* section one */
-.section-one{
+.section-one {
   width: 100%;
   display: flex;
   justify-content: space-between;
   /* background-color: #75BF7A; */
-  
 }
-.section-one-content{
+.section-one-content {
   width: 100%;
   display: inline-flex;
   flex-direction: column;
@@ -70,7 +68,7 @@ body{
   width: 100%;
   color: #afaeb2ff;
 }
-.section-one-btns button{
+.section-one-btns button {
   background-color: black;
   color: white;
   font-size: 1.3em;
@@ -86,35 +84,35 @@ body{
   margin: 0px;
   justify-content: flex-start;
 }
-.section-one-img img{
-    object-fit: cover;
-    height: 374px;
-    filter: drop-shadow(2px 2px 2px gray);
+.section-one-img img {
+  object-fit: cover;
+  height: 374px;
+  filter: drop-shadow(2px 2px 2px gray);
 }
-.searchbar{
+.searchbar {
   display: flex;
   width: 100%;
   height: 166px;
-  background-color: #75BF7A;
+  background-color: #75bf7a;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
-.s-left p{
+.s-left p {
   font-size: 24.6px;
   font-weight: 600;
   color: white;
 }
-.s-center input{
+.s-center input {
   width: 499px;
   height: 67px;
   border-radius: 4.39px;
-  border: none ;
+  border: none;
   font-size: 20px;
   font-weight: 600;
   color: black;
 }
-.s-center button{
+.s-center button {
   width: 260px;
   height: 67px;
   border-radius: 4.39px;
@@ -122,4 +120,94 @@ body{
   font-size: 22px;
   background-color: #000000;
   color: white;
+}
+
+.section-two {
+  width: 100%;
+}
+.section-two .sec-top {
+  margin-top: 100px;
+  text-align: center;
+}
+.section-two .sec-top h3 {
+  font-family: gilbold;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.section-two .sec-top h3 span {
+  color: #75bf7a;
+}
+.section-two .sec-top p {
+  font-family: gilroy;
+  font-size: 1.2em;
+  color: #9e9da2;
+}
+.sec-two-between p {
+  color: #75bf7a;
+  font-weight: bold;
+  font-size: 2em;
+}
+.sec-two-between {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-around;
+}
+.sec-two-between .left {
+  padding-bottom: 50px;
+}
+.sec-two-between .left .circle {
+  text-align: end;
+  position: relative;
+  top: 30px;
+}
+.sec-two-between .left p {
+  position: relative;
+  bottom: 56px;
+  right: 23px;
+}
+.bottom-left {
+  margin-top: 50px;
+}
+.sec-two-between .left h4 ,.left .text {
+  text-align: end;
+ 
+}
+.sec-two-between h4 {
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: black;
+}
+.sec-two-between .center .circle{
+  position: relative;
+  top: 125px;
+}
+.sec-two-between .center .mobile{
+  width: 300px;
+}
+.sec-two-between .center .mobile img{
+  width: 100%;
+  position: relative;
+  top: -356px;
+  left: 57px;
+}
+.sec-two-between .text{
+  color: #9E9DA2;
+  font-size: 1em;
+}
+.sec-two-between .right p{
+  position: relative;
+  bottom: 56px;
+  left: 23px;
+}
+.sec-two-between .right .circle {
+  position: relative;
+  top: 30px;
+}
+.bottom-right{
+  margin-top: 52px;
+}
+.img {
+  margin-top: -10px;
+ display: flex;
+ justify-content: center;
 }

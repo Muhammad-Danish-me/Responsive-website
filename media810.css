@@ -40,5 +40,17 @@
     .s-center input{
       width: 60%;
     }
+    .sec-two-between .left {
+      display: none;
+    }
+    .sec-two-between .right {
+      display: none;
+    }
+    .sec-two-between .center .mobile img{
+      width:100%;
+    }
+    .sec-two-between .center .circle img{
+      width: 100%;
+    }
 }
 
