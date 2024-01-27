@@ -46,13 +46,6 @@
     .sec-two-between .right {
       display: none;
     }
-    .sec-two-between .center .mobile{
-      width: 280px;
-    }
-    .sec-two-between .center .circle{
-      width: 414;
-    
-    }
     .sec-two-between .center .mobile img{
       width:100%;
     }

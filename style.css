@@ -184,16 +184,16 @@ body {
 }
 
 .sec-two-between .center .mobile  {
-  width: 70%;
+  width: 320px;
 }
 .sec-two-between .center .circle  {
-  width: 100%;
+  width: 430px;
 }
 
 .sec-two-between .center .mobile img{
   width: 100%;
   position: relative;
-  top: -356px;
+  top: -390px;
   left: 57px;
 }
 .sec-two-between .text{
