@@ -285,3 +285,6 @@ body {
   font-family: gilory;
   color: #9E9DA2;
 }
+.section-three-mobile{
+  display: none;
+}
