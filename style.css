@@ -177,14 +177,19 @@ body {
   font-weight: bolder;
   color: black;
 }
-.sec-two-between .center .circle{
+.sec-two-between .center .circle img{
   position: relative;
   top: 125px;
+  width: 100%;
 }
 
-.sec-two-between .center .mobile{
+.sec-two-between .center .mobile  {
   width: 70%;
 }
+.sec-two-between .center .circle  {
+  width: 100%;
+}
+
 .sec-two-between .center .mobile img{
   width: 100%;
   position: relative;
