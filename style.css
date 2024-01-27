@@ -1,19 +1,16 @@
 @font-face {
   font-family: gilroy;
-  src: url(images/fonts/Gilroy-Light.otf);
+  src: url(font/Gilroy-Light.otf);
 }
 @font-face {
   font-family: gilbold;
-  src: url(images/fonts/Gilroy-ExtraBold.otf);
+  src: url(font/Gilroy-ExtraBold.otf);
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-}
-* {
-  font-family: gilroy;
+  background-color: #f9f9f9 !important;
 }
 .brg {
   display: none;
@@ -216,4 +213,47 @@ body {
   margin-top: -10px;
  display: flex;
  justify-content: center;
+}
+/* section three */
+.section-three{
+  margin-top: -160px;
+}
+.section-three .top h3{
+  text-align: center;
+  font-family: gilbold;
+  font-size: 2.2em;
+}
+.section-three .top h3 span{
+  color: #75bf7a;
+}
+.section-three .one{
+  margin-top: 60px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #FFFFFF;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  align-items: center;
+}
+.section-three .one .one-left {
+  margin-left: 20px;
+}
+.section-three .one .one-left  span {
+  color: #75bf7a;
+  font: gilory;
+  font-size: 3em;
+  font-weight: bold;
+}
+.section-three .one .one-left h4{
+  font-size: 2em;
+  font-weight: bold;
+}
+.section-three .one .one-left p{
+  font-size: 1.5em;
+  font-family: gilory;
+  color: #9E9DA2;
+}
+.section-three .one .one-right img {
+ margin-right: 30px;
 }
