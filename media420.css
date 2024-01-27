@@ -1,0 +1,8 @@
+@media only screen and (min-width: 420px){
+    .sec-two-between .center .mobile img{
+        width: 280px;
+    }
+    .sec-two-between .center .circle img{
+
+    }
+}
