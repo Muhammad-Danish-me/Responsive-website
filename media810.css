@@ -90,5 +90,35 @@
       color: #9E9DA2;
       font-size: 1em;
     }
+    .section-four-mobile{
+      display: flex;
+      flex-direction: column;
+      margin-top: 70px;
+      text-align: center;
+      width: 100%;
+    }
+    .section-four-mobile .mobile-one{
+      font-size: 1.5em;
+      font-weight: bold;
+      font-family: gilbold;
+    }
+    .section-four-mobile .mobile-one span{
+      color: #75BF7A;
+    }
+    .section-four-mobile .mobile-two p{
+      font-size: 1.6em;
+      font-weight: bold;
+    } 
+    .section-four-mobile .mobile-two span{
+      color: #75BF7A;
+      font-size: 2em;
+    }
+    .section-four-mobile .mobile-text{
+      color: #9E9DA2;
+      margin-top: 10px;
+    }
+    .section-four-mobile .mobile-top{
+      margin-top: 50px;
+    }
 }
 

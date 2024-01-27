@@ -285,6 +285,13 @@ body {
   font-family: gilory;
   color: #9E9DA2;
 }
+.section-three .three{
+  float: inline-start;
+ flex-direction: row-reverse;
+}
 .section-three-mobile{
+  display: none;
+}
+.section-four-mobile{
   display: none;
 }
